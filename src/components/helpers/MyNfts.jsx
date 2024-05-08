@@ -22,7 +22,7 @@ const MyNfts = () => {
     <section className="p-6 flex w-full lg:flex-row flex-col gap-5 mt-5">
       <div className="w-full">
         <div className="flex justify-between grow">
-          <h3 className={`${cairo.className} text-2xl`}>My NFT'S</h3>
+          <h3 className={`${cairo.className} text-2xl`}>My NFT&apos;S</h3>
           <div
             className={`bg-lesserdark ${cairo.className}text-lg  rounded-md h-[40px] w-[200px] grid grid-cols-2 gap-2 items-center`}
           >

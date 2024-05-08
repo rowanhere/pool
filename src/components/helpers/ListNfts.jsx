@@ -2,6 +2,7 @@ import { useState } from "react";
 import { CgSpinner } from "react-icons/cg";
 import NftListButton from "./NftListButton";
 import { Skeleton } from "@/components/ui/skeleton";
+import Image from "next/image";
 const ListNfts = () => {
   const nfts = [
     {
@@ -148,7 +149,7 @@ const ListNfts = () => {
                 {isSkeleton ? (
                   <Skeleton className="w-full h-full rounded-lg" />
                 ) : (
-                  <img
+                  <Image
                     src={item.nftImg}
                     alt={index}
                     className="rounded-lg  cover min-w-full min-h-full transition-all duration-300 hover:scale-125 cursor-pointer"

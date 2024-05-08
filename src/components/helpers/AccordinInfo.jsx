@@ -33,7 +33,7 @@ const AccordinInfo = () => {
   ];
   return (
     <section className="p-5">
-      <h3 className={`${cairo.className}  text-2xl mb-5`}>FAQ'S</h3>
+      <h3 className={`${cairo.className} text-2xl mb-5`}>FAQ&apos;S</h3>
       <div className="grid md:grid-cols-2 gap-2 gap-x-4">
         {accordins.map((e, index) => {
           return (
