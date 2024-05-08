@@ -3,7 +3,7 @@ const NftListButton = ({
   changeNftListBackward,
   changeNftListForward,
   nftList,
-  nftslength
+  nftslength,
 }) => {
   return (
     <div className="font-mono text-lg mt-5 p-2 text-gray-500 flex justify-between items-center">

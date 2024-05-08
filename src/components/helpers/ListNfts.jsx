@@ -150,7 +150,10 @@ const ListNfts = () => {
                   <Skeleton className="w-full h-full rounded-lg" />
                 ) : (
                   <Image
-                    src={item.nftImg}
+                  unoptimized={true}
+                  width={'100'}
+                 height={'100'}
+                  src={item.nftImg}
                     alt={index}
                     className="rounded-lg  cover min-w-full min-h-full transition-all duration-300 hover:scale-125 cursor-pointer"
                   />
